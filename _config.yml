@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Shuo Yang's homepage"
+title                    : "Your Name / Site Title"
 title_separator          : "-"
-name                     : &name "Shuo Yang"
+name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://shyangunique11111.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -80,11 +80,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Shuo Yang"
+  name             : "Your Sidebar Name"
   avatar           : "profile.png"
-  bio              : "PhD student at ENSEA"
-  location         : "Cergy, France"
-  github           : "github.com/sYANGunique1111"
+  bio              : "Your biography for the left-hand sidebar"
+  location         : "Location"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
@@ -97,25 +96,25 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "sYANGunique1111"
+  github           : "academicpages"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  #orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  #twitter          : "replacethistwitterhandle"
+  twitter          : "replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
-  #youtube          :
-  #wikipedia        :
+  youtube          :
+  wikipedia        :
 
 
 # Reading Files
