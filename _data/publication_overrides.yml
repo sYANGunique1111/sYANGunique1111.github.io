@@ -1,0 +1,46 @@
+# Publication overrides for ORCID sync
+#
+# Use this file to customize how publications from ORCID are displayed.
+# You can override by ORCID put-code or by title match.
+#
+# Available override fields:
+#   - status: Custom status text (e.g., "Accepted archival paper at")
+#   - venue: Override the venue name
+#   - paperurl: Override the paper URL
+#   - citation: Override the citation text
+#   - date: Override the publication date
+#   - permalink: Override the permalink
+#   - filename: Override the generated filename
+#   - skip: true  # Skip this publication entirely
+#
+# To find the put-code, run: python scripts/sync_orcid.py
+# It will print the put-code for each work.
+#
+# Example by put-code:
+#   "12345678":
+#     status: "Accepted at"
+#
+# Example by title match:
+#   tcr_override:
+#     title_match: "temporal compression"
+#     status: "Accepted archival paper at"
+
+# ============================================================
+# MANUAL FILES
+# ============================================================
+# List files here that are NOT from ORCID and should be preserved.
+# These won't be deleted during sync.
+_manual_files:
+  - ECCV_TCR.md
+
+# ============================================================
+# OVERRIDES FOR ORCID PUBLICATIONS
+# ============================================================
+# Add overrides here to customize how ORCID publications are displayed.
+# Match by put-code (from ORCID) or by title_match (partial match).
+
+# Example: if TCR gets added to ORCID later, override its status:
+# tcr:
+#   title_match: "temporal compression"
+#   status: "Accepted archival paper at"
+#   venue: "ECCV 2026 Workshop on Human Scene Interaction (HSI)"
